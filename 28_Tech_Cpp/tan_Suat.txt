@@ -1,0 +1,50 @@
+/*Cho mảng số nguyên A[] gồm N phần tử, hãy liệt kê các giá trị xuất hiện trong mảng kèm theo tần suất tương ứng, mỗi giá trị chỉ liệt kê một lần theo thứ tự xuất hiện.
+
+Đầu vào
+Dòng đầu tiên là số nguyên dương N
+
+Dòng thứ 2 gồm N số nguyên viết cách nhau một vài khoảng trắng
+
+Giới hạn
+1<=N<=1000
+
+0<=A[i]<=10^3
+
+Đầu ra
+In ra nhiều dòng, mỗi dòng gồm giá trị kèm theo tần suất tương ứng */ 
+
+ #include <iostream>
+ using namespace std;
+
+  int main() {
+//     int n;
+//     cin >> n;
+//     int arr[n];
+    
+//     for (int i = 0; i < n; ++i) {
+//         cin >> arr[i];
+//     }
+
+//     bool counted[1001] = {false}; // mảng để đánh dấu các phần tử đã được đếm
+//     int frequency[1001] = {0}; // mảng để lưu tần suất xuất hiện của các phần tử
+
+//     for (int i = 0; i < n; ++i) {
+//         if (!counted[arr[i]]) { // nếu phần tử chưa được đếm
+//             counted[arr[i]] = true; // đánh dấu phần tử đã được đếm
+//             for (int j = 0; j < n; ++j) {
+//                 if (arr[j] == arr[i]) {
+//                     frequency[arr[i]]++; // tăng tần suất của phần tử
+//                 }
+//             }
+//         }
+//     }
+
+//     for (int i = 0; i < n; ++i) {
+//        if (counted[arr[i]]) { // chỉ in ra các phần tử đã được đếm
+//             cout << arr[i] << " " << frequency[arr[i]] << endl;
+//             counted[arr[i]] = false; // tránh in lặp lại phần tử
+//         }
+//     }
+
+//     return 0;
+// }
